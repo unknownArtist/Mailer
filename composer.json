@@ -1,0 +1,23 @@
+{
+    "name": "ds3/mailer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Muhammad Saqib",
+            "email": "rooott@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ds3\\Mailer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
